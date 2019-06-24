@@ -1,13 +1,28 @@
-#include <iostream>
+#include "Uzytkownik.h"
 
-using namespace std;
-
-class Uzytkownik
+void Uzytkownik::ustawID(int noweID)
 {
-    int id;
-    string login;
-    string haslo;
+    if (noweID >= 0)
+    id = noweID;
+}
+void Uzytkownik::ustawLogin(string nowyLogin)
+{
+    login = nowyLogin;
+}
+void Uzytkownik::ustawHaslo(string noweHaslo)
+{
+    haslo = noweHaslo;
+}
 
-public:
-    rejestracjaUzytkownika();
-};
+int Uzytkownik::pobierzID()
+{
+    return id;
+}
+string Uzytkownik::pobierzLogin()
+{
+    return login;
+}
+string Uzytkownik::pobierzHaslo()
+{
+    return haslo;
+}
