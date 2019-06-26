@@ -4,8 +4,6 @@
 void UzytkownikMenedzer::rejestracjaUzytkownika()
 {
     Uzytkownik uzytkownik = podajDaneNowegoUzytkownika();
-
-
     uzytkownicy.push_back(uzytkownik);
     plikZUzytkownikami.dopiszUzytkownikaDoPliku(uzytkownik);
 
@@ -67,4 +65,7 @@ void UzytkownikMenedzer::wypiszWszystkichUzytkownikow()
     }
 }
 
-
+void UzytkownikMenedzer::wczytajUzytkownikowZPliku()
+{
+    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
+}
