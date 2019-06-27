@@ -9,7 +9,6 @@ class KsiazkaAdresowa
     UzytkownikMenedzer uzytkownikMenedzer;
 
 public:
-    //nazwaPlikuZUzytkownikami("Uzytkownicy.txt");
     KsiazkaAdresowa(string nazwaPlikuZUzytkownikami) : uzytkownikMenedzer(nazwaPlikuZUzytkownikami){
     uzytkownikMenedzer.wczytajUzytkownikowZPliku();
     };
