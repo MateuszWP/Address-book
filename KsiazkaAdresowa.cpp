@@ -14,3 +14,8 @@ void KsiazkaAdresowa::logowanieUzytkownika()
 {
     cout << uzytkownikMenedzer.logowanieUzytkownika() << endl;
 }
+
+void KsiazkaAdresowa::zmianaHaslaZalogowanegoUzytkownika()
+{
+    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
+}
