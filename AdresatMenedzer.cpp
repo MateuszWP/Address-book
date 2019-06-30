@@ -1,6 +1,11 @@
 #include "AdresatMenedzer.h"
 #include "MetodyPomocnicze.h"
-//#include "PlikZUzytkownikami.h"
+#include "PlikZAdresatami.h"
+
+AdresatMenedzer::AdresatMenedzer()
+{
+    idOstatniegoAdresata = 0;
+}
 
 void AdresatMenedzer::dodajAdresata(int idZalogowanegoUzytkownika)
 {
@@ -11,7 +16,7 @@ void AdresatMenedzer::dodajAdresata(int idZalogowanegoUzytkownika)
     adresat = podajDaneNowegoAdresata(idZalogowanegoUzytkownika);
 
     adresaci.push_back(adresat);
-    //dopiszAdresataDoPliku(adresat);
+    plikZAdresatami.dopiszAdresataDoPliku(adresat);
 
     //return ++idOstatniegoAdresata;
 }
