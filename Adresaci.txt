@@ -1,4 +1,6 @@
-1|2|Pawel|Maruda|sada|dfdsf|dfds|
-1|2|Filip|Podroznik|32432|dfsf|fds|
-1|2|Max|Bax|sd|asd|asda|
-2|2|Max|Dux|sa|sada|fsf|
+1|2|Pawel|Maruda|3423432|dsfds|sdfsd|
+2|2|Karol|Paczwa|432423|dsf|cxvxv|
+3|1|Mateuusz|Paczwa|3213213|fsfs|sdfsdf|
+4|1|Marta|Lustro|34324|dsfsd|fsfsd|
+5|2|Antek|Padalec|223|fsf|vx|
+6|2|Michal|Krol|3423|fds|sdf|
