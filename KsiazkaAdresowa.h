@@ -22,6 +22,7 @@ public:
     void wylogowywanieUzytkownika();
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    void wczytajAdresatowZalogowanegoUzytkownikaZPliku();
 
 
 };
