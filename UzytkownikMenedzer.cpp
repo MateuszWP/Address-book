@@ -131,3 +131,13 @@ int UzytkownikMenedzer::wylogowywanieUzytkownika()
     cout << "Uzytkownik zosta³ wylogowany." << endl;
     return idZalogowanegoUzytkownika;
 }
+
+void UzytkownikMenedzer::ustawIdZalogowanegoUzytkownika(int noweIdZalogowanegoUzytkownika)
+{
+    idZalogowanegoUzytkownika = noweIdZalogowanegoUzytkownika;
+}
+
+int UzytkownikMenedzer::pobierzIdZalogowanegoUzytkownika()
+{
+    return idZalogowanegoUzytkownika;
+}

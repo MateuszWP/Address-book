@@ -25,4 +25,12 @@ void KsiazkaAdresowa::wylogowywanieUzytkownika()
     cout << uzytkownikMenedzer.wylogowywanieUzytkownika() << endl;
 }
 
+void KsiazkaAdresowa::dodajAdresata()
+{
+    adresatMenedzer.dodajAdresata(uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika());
+}
 
+void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
+{
+    adresatMenedzer.wyswietlWszystkichAdresatow();
+}
