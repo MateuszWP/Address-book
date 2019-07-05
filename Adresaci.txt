@@ -1,6 +1,5 @@
-1|2|Pawel|Maruda|3423432|dsfds|sdfsd|
-2|2|Karol|Paczwa|432423|dsf|cxvxv|
-3|1|Mateuusz|Paczwa|3213213|fsfs|sdfsdf|
-4|1|Marta|Lustro|34324|dsfsd|fsfsd|
-5|2|Antek|Padalec|223|fsf|vx|
-6|2|Michal|Krol|3423|fds|sdf|
+1|1||Mateusz paczwa|518 349 742|maxwell1989@o2.pl|ul. Lesna 5/1 Szczecin|
+2|1||Asdas|asdas|asdas|asda|
+3|1||Paskal|213|123|adada|
+4|1||||||
+5|1||Mateusz|3423|wrwe|sdfsd|
