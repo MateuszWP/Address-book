@@ -41,6 +41,7 @@ string MetodyPomocnicze::pobierzLiczbe(string tekst, int pozycjaZnaku)
 string MetodyPomocnicze::wczytajLinie()
 {
     string wejscie = "";
+    cin.sync();
     getline(cin, wejscie);
     return wejscie;
 }
