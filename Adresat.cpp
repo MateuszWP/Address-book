@@ -11,10 +11,12 @@ void Adresat::ustawIDUzytkownika(int noweIDUzytkownika)
     if (noweIDUzytkownika >= 0)
     idUzytkownika = noweIDUzytkownika;
 }
+
 void Adresat::ustawImie(string noweImie)
 {
     imie = noweImie;
 }
+
 void Adresat::ustawNazwisko(string noweNazwisko)
 {
     nazwisko = noweNazwisko;

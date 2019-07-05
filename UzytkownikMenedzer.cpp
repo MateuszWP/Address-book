@@ -85,9 +85,9 @@ int UzytkownikMenedzer::logowanieUzytkownika()
 
                 if (itr -> pobierzHaslo() == haslo)
                 {
+                    idZalogowanegoUzytkownika = itr -> pobierzID();
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
-                    idZalogowanegoUzytkownika = itr -> pobierzID();
                     return itr -> pobierzID();
                 }
             }
@@ -120,16 +120,22 @@ void UzytkownikMenedzer::zmianaHaslaZalogowanegoUzytkownika()
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
-int UzytkownikMenedzer::wylogowywanieUzytkownika()
+void UzytkownikMenedzer::wylogowywanieUzytkownika()
 {
     idZalogowanegoUzytkownika = 0;
-    cout << "Uzytkownik zosta³ wylogowany." << endl;
-    return idZalogowanegoUzytkownika;
 }
 
 void UzytkownikMenedzer::ustawIdZalogowanegoUzytkownika(int noweIdZalogowanegoUzytkownika)
 {
     idZalogowanegoUzytkownika = noweIdZalogowanegoUzytkownika;
+}
+
+bool UzytkownikMenedzer::czyUzytkownikJestZalogowany()
+{
+    if (idZalogowanegoUzytkownika > 0)
+        return true;
+    else
+        return false;
 }
 
 int UzytkownikMenedzer::pobierzIdZalogowanegoUzytkownika()
