@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt", "Adresaci_tymczasowo.txt");
 
     char wybor;
 
@@ -20,6 +20,7 @@ int main()
         cout << "4. Dodaj adresata" << endl;
         cout << "5. Zmiana hasla uzytkownika" << endl;
         cout << "6. Wyloguj" << endl;
+        cout << "7. Usun adresata" << endl;
         cout << "9. Koniec programu" << endl;
         cout << "---------------------------" << endl;
         cout << "Twoj wybor: ";
@@ -46,6 +47,9 @@ int main()
             break;
         case '6':
             ksiazkaAdresowa.wylogowywanieUzytkownika();
+            break;
+        case '7':
+            ksiazkaAdresowa.usunAdresata();
             break;
         case '9':
             exit(0);

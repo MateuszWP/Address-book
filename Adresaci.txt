@@ -1,2 +1,2 @@
-1|1|Wladek|Lokietek|111 222 333|wladek@gmail.com|ul. Lesna 5 70-111 Gniezno|
-2|2|Jan|Wichura|212 332 122|jan@o2.pl|ul. Polna 2/3 66-012 Zielona Gora|
+1|2|Pawel|Skrzat|333 111 222|pawel@o2.pl|Szczecin|
+4|2|Lukasz|Walus|212211|rewrew||
