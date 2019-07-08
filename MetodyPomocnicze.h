@@ -17,5 +17,7 @@ public:
     static string wczytajLinie();
     static char wczytajZnak();
     static int wczytajLiczbeCalkowita();
+    static char wybierzOpcjeZMenuGlownego();
+    static char wybierzOpcjeZMenuUzytkownika();
 };
 #endif
