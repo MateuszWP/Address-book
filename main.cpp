@@ -12,28 +12,31 @@ int main()
 
     while (true)
     {
-        wybor = MetodyPomocnicze::wybierzOpcjeZMenuGlownego();
-
-        switch (wybor)
+        if (ksiazkaAdresowa.czyUzytkownikJestZalogowany() == false)
         {
-        case '1':
-            ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
-            break;
-        case '2':
-            ksiazkaAdresowa.rejestracjaUzytkownika();
-            break;
-        case '3':
-            ksiazkaAdresowa.logowanieUzytkownika();
-            break;
-        case '9':
-            exit(0);
-            break;
-        default:
-            cout << endl << "Nie ma takiej opcji w menu." << endl << endl;
-            system("pause");
-            break;
+            wybor = MetodyPomocnicze::wybierzOpcjeZMenuGlownego();
+
+            switch (wybor)
+            {
+            case '1':
+                ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+                break;
+            case '2':
+                ksiazkaAdresowa.rejestracjaUzytkownika();
+                break;
+            case '3':
+                ksiazkaAdresowa.logowanieUzytkownika();
+                break;
+            case '9':
+                exit(0);
+                break;
+            default:
+                cout << endl << "Nie ma takiej opcji w menu." << endl << endl;
+                system("pause");
+                break;
+            }
         }
-        if (ksiazkaAdresowa.czyUzytkownikJestZalogowany())
+        else
         {
             wybor = MetodyPomocnicze::wybierzOpcjeZMenuUzytkownika();
 
@@ -55,7 +58,7 @@ int main()
                 ksiazkaAdresowa.usunAdresata();
                 break;
             case '6':
-                //edytujAdresata(adresaci);
+                ksiazkaAdresowa.edytujAdresata();
                 break;
             case '7':
                 ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
