@@ -62,7 +62,9 @@ void UzytkownikMenedzer::wypiszWszystkichUzytkownikow()
         cout << uzytkownicy[i].pobierzID() << endl;
         cout << uzytkownicy[i].pobierzLogin() << endl;
         cout << uzytkownicy[i].pobierzHaslo() << endl;
+        cout << endl;
     }
+    system ("pause");
 }
 
 int UzytkownikMenedzer::logowanieUzytkownika()
