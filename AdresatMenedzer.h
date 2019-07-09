@@ -6,7 +6,6 @@
 #include <windows.h>
 #include <sstream>
 
-#include "Adresat.h"
 #include "PlikZAdresatami.h"
 
 using namespace std;
