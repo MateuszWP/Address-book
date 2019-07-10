@@ -22,6 +22,7 @@ class PlikZAdresatami : public PlikTekstowy
     int pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
     void usunPlik(string nazwaPlikuZRozszerzeniem);
     void zmienNazwePliku(string staraNazwa, string nowaNazwa);
+    void pobierzZPlikuIdOstatniegoAdresata();
 
 public:
     PlikZAdresatami(string nazwaPliku, string nazwaTymczasowegoPlikuZAdresatami)
