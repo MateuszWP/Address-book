@@ -1,5 +1,3 @@
-1|2|Janusz|Skrzat|333 111 222|pawel@o2.pl|Szczecin|
-4|2|Lukasz|Walus|212211|rewrew||
-5|2|Filip|Konopia|123 434 121|konopia@gmail.com|Warszawa|
-7|4|Marian|Pazdzioch|222 111 444|marian@o2.pl|Wroclaw|
-8|1|Adam|Maly|555 666 444|redbull@wp.pl|Wisla|
+1|1|Pawel|Krol|222 333 111|dsfsd|sdfsdfsdf|
+3|2|Jan|Kowalski|23213|sfsfsd|fdsfsd|
+4|1|Patryk|Dzik|21231|fsdfds|dsfsd|
